@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : Ali_Mamdouh_mini_project4.c
+ Author      : Ali Mamdouh
+ Description :
+ Date        : 18/10/2022
+ ============================================================================
+ */
+#include "lcd.h"
+
+int main(void)
+{
+	LCD_init(); /* Initialize the LCD */
+	LCD_displayString("LCD 4-Bits Mode");
+	LCD_displayStringRowColumn(1, 0, "MT Emb. Diploma");
+	LCD_intgerToString(72);
+
+	while(1)
+	{
+		/* Note: we write the code before while(1) because we want to execute it only once */
+	}
+
+}
+

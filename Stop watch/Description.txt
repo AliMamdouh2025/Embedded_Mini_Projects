@@ -1,0 +1,4 @@
+Developing a system that controls the stopwatch time and display it on 7-segment displays.The used algoritm allowed to minimize used resource and to use only 6 pins for 7-segment timing instead of 12 pins.
+
+Technology used:
+GPIO, Timer, External Interrupts, 7-segment, ATmega32.

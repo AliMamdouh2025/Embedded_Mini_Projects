@@ -1,0 +1,29 @@
+ /******************************************************************************
+ *
+ * Module: ULTRASONIC
+ *
+ * File Name: ultrasonic.h
+ *
+ * Description: Header file for the AVR ULTRASONIC driver
+ *
+ * Author: Ali Mamdouh
+ *
+ *******************************************************************************/
+
+#ifndef ULTRASONIC_H_
+#define ULTRASONIC_H_
+
+#include "std_types.h"
+
+/*******************************************************************************
+ *                                Definitions                                  *
+ *******************************************************************************/
+#define TRIGGER_PORT PORTB_ID
+#define TRIGGER_PIN PIN5_ID
+#define ECHO_PORT PORTD_ID
+#define ECHO_PIN PIN6_ID
+
+
+
+
+#endif /* ULTRASONIC_H_ */

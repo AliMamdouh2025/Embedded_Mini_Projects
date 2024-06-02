@@ -1,0 +1,5 @@
+Distance Measuring System:
+Developing a system that measures the distance and display it on an LCD.
+
+Technology used:
+GPIO, ICU, Ultrasonic Sensor, and LCD, ATmega32

@@ -1,0 +1,449 @@
+11:20:06 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Building file: ../Ali_Mamdouh_mini_project4.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Ali_Mamdouh_mini_project4.d" -MT"Ali_Mamdouh_mini_project4.o" -c -o "Ali_Mamdouh_mini_project4.o" "../Ali_Mamdouh_mini_project4.c"
+Finished building: ../Ali_Mamdouh_mini_project4.c
+ 
+Building file: ../ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultrasonic.d" -MT"ultrasonic.o" -c -o "ultrasonic.o" "../ultrasonic.c"
+In file included from ../ultrasonic.c:17:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultrasonic.c
+ 
+Building target: Ali_Mamdouh_mini_project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ali_Mamdouh_mini_project4.map -mmcu=atmega32 -o "Ali_Mamdouh_mini_project4.elf"  ./Ali_Mamdouh_mini_project4.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+Finished building target: Ali_Mamdouh_mini_project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Ali_Mamdouh_mini_project4.elf  >"Ali_Mamdouh_mini_project4.lss"
+Finished building: Ali_Mamdouh_mini_project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10090 bytes (30.8% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:20:29 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Building file: ../ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultrasonic.d" -MT"ultrasonic.o" -c -o "ultrasonic.o" "../ultrasonic.c"
+In file included from ../ultrasonic.c:17:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultrasonic.c
+ 
+Building target: Ali_Mamdouh_mini_project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ali_Mamdouh_mini_project4.map -mmcu=atmega32 -o "Ali_Mamdouh_mini_project4.elf"  ./Ali_Mamdouh_mini_project4.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+Finished building target: Ali_Mamdouh_mini_project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Ali_Mamdouh_mini_project4.elf  >"Ali_Mamdouh_mini_project4.lss"
+Finished building: Ali_Mamdouh_mini_project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10090 bytes (30.8% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:20:30 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10090 bytes (30.8% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:28:21 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Building file: ../Ali_Mamdouh_mini_project4.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Ali_Mamdouh_mini_project4.d" -MT"Ali_Mamdouh_mini_project4.o" -c -o "Ali_Mamdouh_mini_project4.o" "../Ali_Mamdouh_mini_project4.c"
+Finished building: ../Ali_Mamdouh_mini_project4.c
+ 
+Building file: ../ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultrasonic.d" -MT"ultrasonic.o" -c -o "ultrasonic.o" "../ultrasonic.c"
+In file included from ../ultrasonic.c:17:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultrasonic.c
+ 
+Building target: Ali_Mamdouh_mini_project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ali_Mamdouh_mini_project4.map -mmcu=atmega32 -o "Ali_Mamdouh_mini_project4.elf"  ./Ali_Mamdouh_mini_project4.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+Finished building target: Ali_Mamdouh_mini_project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Ali_Mamdouh_mini_project4.elf  >"Ali_Mamdouh_mini_project4.lss"
+Finished building: Ali_Mamdouh_mini_project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10078 bytes (30.8% Full)
+(.text + .data + .bootloader)
+
+Data:        290 bytes (14.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:28:22 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10078 bytes (30.8% Full)
+(.text + .data + .bootloader)
+
+Data:        290 bytes (14.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:29:34 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Building file: ../Ali_Mamdouh_mini_project4.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Ali_Mamdouh_mini_project4.d" -MT"Ali_Mamdouh_mini_project4.o" -c -o "Ali_Mamdouh_mini_project4.o" "../Ali_Mamdouh_mini_project4.c"
+Finished building: ../Ali_Mamdouh_mini_project4.c
+ 
+Building file: ../ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultrasonic.d" -MT"ultrasonic.o" -c -o "ultrasonic.o" "../ultrasonic.c"
+In file included from ../ultrasonic.c:17:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultrasonic.c
+ 
+Building target: Ali_Mamdouh_mini_project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ali_Mamdouh_mini_project4.map -mmcu=atmega32 -o "Ali_Mamdouh_mini_project4.elf"  ./Ali_Mamdouh_mini_project4.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+Finished building target: Ali_Mamdouh_mini_project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Ali_Mamdouh_mini_project4.elf  >"Ali_Mamdouh_mini_project4.lss"
+Finished building: Ali_Mamdouh_mini_project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10090 bytes (30.8% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:29:35 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10090 bytes (30.8% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:11:09 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Building file: ../Ali_Mamdouh_mini_project4.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Ali_Mamdouh_mini_project4.d" -MT"Ali_Mamdouh_mini_project4.o" -c -o "Ali_Mamdouh_mini_project4.o" "../Ali_Mamdouh_mini_project4.c"
+Finished building: ../Ali_Mamdouh_mini_project4.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../icu.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"icu.d" -MT"icu.o" -c -o "icu.o" "../icu.c"
+../icu.c: In function 'Icu_setCallBack':
+../icu.c:82: warning: function return types not compatible due to 'volatile'
+Finished building: ../icu.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:212: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultrasonic.d" -MT"ultrasonic.o" -c -o "ultrasonic.o" "../ultrasonic.c"
+In file included from ../ultrasonic.c:17:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultrasonic.c
+ 
+Building target: Ali_Mamdouh_mini_project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ali_Mamdouh_mini_project4.map -mmcu=atmega32 -o "Ali_Mamdouh_mini_project4.elf"  ./Ali_Mamdouh_mini_project4.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+Finished building target: Ali_Mamdouh_mini_project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Ali_Mamdouh_mini_project4.elf  >"Ali_Mamdouh_mini_project4.lss"
+Finished building: Ali_Mamdouh_mini_project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10122 bytes (30.9% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:21:21 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Building file: ../Ali_Mamdouh_mini_project4.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Ali_Mamdouh_mini_project4.d" -MT"Ali_Mamdouh_mini_project4.o" -c -o "Ali_Mamdouh_mini_project4.o" "../Ali_Mamdouh_mini_project4.c"
+Finished building: ../Ali_Mamdouh_mini_project4.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../icu.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"icu.d" -MT"icu.o" -c -o "icu.o" "../icu.c"
+../icu.c: In function 'Icu_setCallBack':
+../icu.c:82: warning: function return types not compatible due to 'volatile'
+Finished building: ../icu.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:212: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultrasonic.d" -MT"ultrasonic.o" -c -o "ultrasonic.o" "../ultrasonic.c"
+In file included from ../ultrasonic.c:17:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultrasonic.c
+ 
+Building target: Ali_Mamdouh_mini_project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ali_Mamdouh_mini_project4.map -mmcu=atmega32 -o "Ali_Mamdouh_mini_project4.elf"  ./Ali_Mamdouh_mini_project4.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+Finished building target: Ali_Mamdouh_mini_project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Ali_Mamdouh_mini_project4.elf  >"Ali_Mamdouh_mini_project4.lss"
+Finished building: Ali_Mamdouh_mini_project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10122 bytes (30.9% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:21:25 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10122 bytes (30.9% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:22:42 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Building file: ../ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultrasonic.d" -MT"ultrasonic.o" -c -o "ultrasonic.o" "../ultrasonic.c"
+In file included from ../ultrasonic.c:17:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultrasonic.c
+ 
+Building target: Ali_Mamdouh_mini_project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ali_Mamdouh_mini_project4.map -mmcu=atmega32 -o "Ali_Mamdouh_mini_project4.elf"  ./Ali_Mamdouh_mini_project4.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+Finished building target: Ali_Mamdouh_mini_project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Ali_Mamdouh_mini_project4.elf  >"Ali_Mamdouh_mini_project4.lss"
+Finished building: Ali_Mamdouh_mini_project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10122 bytes (30.9% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:23:29 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Building file: ../ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultrasonic.d" -MT"ultrasonic.o" -c -o "ultrasonic.o" "../ultrasonic.c"
+In file included from ../ultrasonic.c:17:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultrasonic.c
+ 
+Building target: Ali_Mamdouh_mini_project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ali_Mamdouh_mini_project4.map -mmcu=atmega32 -o "Ali_Mamdouh_mini_project4.elf"  ./Ali_Mamdouh_mini_project4.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+Finished building target: Ali_Mamdouh_mini_project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Ali_Mamdouh_mini_project4.elf  >"Ali_Mamdouh_mini_project4.lss"
+Finished building: Ali_Mamdouh_mini_project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10122 bytes (30.9% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:23:57 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10122 bytes (30.9% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:25:04 **** Incremental Build of configuration Debug for project Ali_Mamdouh_mini_project4 ****
+make all 
+Building file: ../ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ultrasonic.d" -MT"ultrasonic.o" -c -o "ultrasonic.o" "../ultrasonic.c"
+In file included from ../ultrasonic.c:17:
+d:/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../ultrasonic.c
+ 
+Building target: Ali_Mamdouh_mini_project4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Ali_Mamdouh_mini_project4.map -mmcu=atmega32 -o "Ali_Mamdouh_mini_project4.elf"  ./Ali_Mamdouh_mini_project4.o ./gpio.o ./icu.o ./lcd.o ./ultrasonic.o   
+Finished building target: Ali_Mamdouh_mini_project4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Ali_Mamdouh_mini_project4.elf  >"Ali_Mamdouh_mini_project4.lss"
+Finished building: Ali_Mamdouh_mini_project4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Ali_Mamdouh_mini_project4.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10122 bytes (30.9% Full)
+(.text + .data + .bootloader)
+
+Data:        286 bytes (14.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
