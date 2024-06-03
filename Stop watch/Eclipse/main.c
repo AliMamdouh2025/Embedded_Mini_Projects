@@ -145,6 +145,7 @@ int main(void)
 			               *every segment will be on for 1ms and off for 7ms
 			               *due to turning off for 7ms is very small portion of time..every segment appears that it is always on due to the persistence of vision
 			               *if we delete this line there is no problem with persistence of vision, but 7segment crash due to very high frequency
+		                       *By this way we could use 6 pins instead of 12 pins of 7-segment
 			               */
 		}
 
