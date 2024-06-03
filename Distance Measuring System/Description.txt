@@ -1,5 +1,5 @@
 Distance Measuring System:
-Developing a system that measures the distance and display it on an LCD.
+This project involves developing a distance measurement system using an ultrasonic sensor, interfaced with an ATmega32 microcontroller, to capture distance data via GPIO and ICU. The measured distance is then displayed on an LCD, providing real-time readings.
 
 Technology used:
 GPIO, ICU, Ultrasonic Sensor, and LCD, ATmega32
