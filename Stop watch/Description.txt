@@ -1,4 +1,7 @@
-This project involves developing a stopwatch system using an ATmega32 microcontroller, displaying the time on 7-segment displays while minimizing resource usage by employing an efficient algorithm that reduces the required pins from 12 to 6. The implementation leverages GPIO, timers, and external interrupts to manage the timing and display operations.
+This project involves developing a stopwatch system using an ATmega32 microcontroller, 
+displaying the time on 7-segment displays while minimizing resource usage
+by employing an efficient algorithm that reduces the required pins from 12 to 6.
+The implementation leverages GPIO, timers, and external interrupts to manage the timing and display operations.
 
 Technology used:
 GPIO, Timer, External Interrupts, 7-segment, ATmega32.
